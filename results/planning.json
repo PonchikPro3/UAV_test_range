@@ -1,0 +1,11 @@
+{
+  "test_id": "R-001",
+  "ready": true,
+  "can_book": false,
+  "document_failures": [],
+  "conflicts": [
+    "T1:SAME_ZONE",
+    "T2:ADJACENT_INTERFERENCE",
+    "T3:SAME_UAV"
+  ]
+}

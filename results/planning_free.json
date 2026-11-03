@@ -1,0 +1,7 @@
+{
+  "test_id": "R-001",
+  "ready": true,
+  "can_book": true,
+  "document_failures": [],
+  "conflicts": []
+}

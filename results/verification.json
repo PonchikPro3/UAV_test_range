@@ -1,0 +1,23 @@
+{
+  "java": "JAVA_CHECKS_PASSED=23",
+  "python": "test_bad_header_rejected (test_analytics.AnalyticsChecks.test_bad_header_rejected) ... ok\ntest_bad_limits_rejected (test_analytics.AnalyticsChecks.test_bad_limits_rejected) ... ok\ntest_bad_protocol_id (test_analytics.AnalyticsChecks.test_bad_protocol_id) ... ok\ntest_bad_rows_rejected (test_analytics.AnalyticsChecks.test_bad_rows_rejected) ... ok\ntest_bom_and_crlf (test_analytics.AnalyticsChecks.test_bom_and_crlf) ... ok\ntest_demo (test_analytics.AnalyticsChecks.test_demo) ... ok\ntest_equal_thresholds_pass (test_analytics.AnalyticsChecks.test_equal_thresholds_pass) ... ok\ntest_lower_bound_passes (test_analytics.AnalyticsChecks.test_lower_bound_passes) ... ok\ntest_protocol (test_analytics.AnalyticsChecks.test_protocol) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.063s\n\nOK",
+  "demo": "samples=5; violations=4; result=FAILED",
+  "planning": {
+    "test_id": "R-001",
+    "ready": true,
+    "can_book": false,
+    "document_failures": [],
+    "conflicts": [
+      "T1:SAME_ZONE",
+      "T2:ADJACENT_INTERFERENCE",
+      "T3:SAME_UAV"
+    ]
+  },
+  "planning_free": {
+    "test_id": "R-001",
+    "ready": true,
+    "can_book": true,
+    "document_failures": [],
+    "conflicts": []
+  }
+}

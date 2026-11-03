@@ -1,0 +1,59 @@
+{
+  "test_id": "T-DEMO",
+  "status": "DRAFT",
+  "method": "DISCRETE_RECTANGLE_V1",
+  "generated_at": "2026-11-03T11:40:14.611239+00:00",
+  "telemetry_sha256": "4de6e8b485f7c2b6cecd5815054371347c20e38ed942338c6f7a414909cb3a1b",
+  "analysis": {
+    "samples": 5,
+    "limits": {
+      "x_min": 0.0,
+      "x_max": 100.0,
+      "y_min": 0.0,
+      "y_max": 100.0,
+      "height_max": 120.0,
+      "speed_max": 15.0,
+      "battery_min": 20.0
+    },
+    "violation_count": 4,
+    "violations": [
+      {
+        "row": 4,
+        "seq_no": 3,
+        "time_s": 2.0,
+        "code": "OUTSIDE_ZONE",
+        "actual_value": 1.0,
+        "limit_value": 0.0
+      },
+      {
+        "row": 5,
+        "seq_no": 4,
+        "time_s": 3.0,
+        "code": "HEIGHT_LIMIT",
+        "actual_value": 121.0,
+        "limit_value": 120.0
+      },
+      {
+        "row": 5,
+        "seq_no": 4,
+        "time_s": 3.0,
+        "code": "SPEED_LIMIT",
+        "actual_value": 16.0,
+        "limit_value": 15.0
+      },
+      {
+        "row": 5,
+        "seq_no": 4,
+        "time_s": 3.0,
+        "code": "LOW_BATTERY",
+        "actual_value": 19.0,
+        "limit_value": 20.0
+      }
+    ],
+    "max_height_m": 121.0,
+    "max_speed_m_s": 16.0,
+    "min_battery_pct": 19.0,
+    "result": "FAILED",
+    "telemetry_sha256": "4de6e8b485f7c2b6cecd5815054371347c20e38ed942338c6f7a414909cb3a1b"
+  }
+}
